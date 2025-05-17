@@ -1,0 +1,21 @@
+[project]
+name = "superfuel-assignment"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Yash",email = "71819535+yashupadhyayy1@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8,<4.0"
+dependencies = [
+    "python-dotenv (>=0.21.1,<0.22.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+baml-cli = "^0.1.0"
+
